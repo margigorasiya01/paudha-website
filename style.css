@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial;
+    font-size: 17px;
+  }
+  
+  #myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+  }
+
+  .section{
+    display: flex;
+  }
+
+  .left{
+    position: fixed;
+  }
+
+
+  .icon{
+    word-spacing: 10px;
+    font-size: 40px;
+    position: relative;
+    background: white;
+    color: darkcyan;
+    font-style: italic;
+    width: 410px;
+    height: 130px;
+    padding: 50px;
+    margin: 30px 0px 0px 30px ;
+  }
+
+  .icon:hover{
+    background-color: darkcyan;
+    color: white;
+  }
+
+  .row1{
+    display: flex;
+  }
+
+  .aboutus{
+    margin: 20px 0px 0px 20px;
+  }
+
+  .A{
+    word-spacing: 5px;
+    position: relative;
+    background: white;
+    color: darkcyan;
+    height: 80px;
+    width: 190px;
+    margin: 20px 0px 0px 30px;
+    padding: 30px;
+  }
+
+  .A:hover{
+    background-color: darkcyan;
+    color: white;
+  }
+
+  .row2{
+    display: flex;
+  }
+
+  .Items{
+    padding: 30px 0px 5px 25px;
+  }
+
+  .contact{
+    margin: 20px 0px 0px 30px;
+  }
+
+  a{
+    font-size: 30px;
+    color: white;
+    padding: 40px;
+    font-weight: bolder;
+    text-decoration: none;
+  }
+
+  .links{
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+    position: relative;
+    margin: 30px 10px 0px 700px;
+    padding: 20px;
+  }
+
+  a:hover{
+    text-decoration: underline;
+    color: #96FEFF;
+  }
+
+  .colum1{
+    position: relative;
+    display: flex;
+    flex-direction:column;
+    margin: 130px 0px 0px -750px;
+  }
+
+  img{
+    position: relative;
+    height: 170px;
+    width: 170px;
+  }
+
+  .colum2{
+    position: relative;
+    display: flex;
+    flex-direction:column;
+    margin: 130px 0px 0px 40px;
+  }
+
+  .types{
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+    font-size: 30px;
+    height: 170px;
+    width: 500px;
+    padding: 25px 0px 10px 40px;
+  }
+
+  .price{
+    float: right;
+    margin-right: 30px;
+    color: #96FEFF;
+    font-size: 25px;
+  }
+
+  .info{
+    font-size: 20px;
+    text-align: justify;
+    margin:20px 30px 0px 0px;
+  }
+
+  .color{
+    color: darkcyan;
+  }
+
+
+
+
+  
+
+  
